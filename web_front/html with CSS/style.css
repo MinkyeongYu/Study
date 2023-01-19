@@ -1,0 +1,28 @@
+/* h3 그룹을 모두 빨간색으로 변경 */
+h3 {
+    color:red;
+}
+/* 같은 태그 그룹 내 구분 짓기 위해 클래스를 사용함. */
+/* 클래스가 blue를 가진 것만 파란색으로 변경 */
+.blue {
+    color: blue;
+}
+
+/* id가 green인 것을 찾는다. */
+/* 선택자 우선순위 : id > class = attribute > tag*/
+#green {
+    color: green;
+}
+
+/* attribute에 접근할때는 [ ] 를 사용한다. */
+[href="https://www.google.com"]{
+    background-color:red;
+}
+[href="https://www.naver.com"]{
+    background-color: blue;
+}
+
+/* 태그에 호버 기능 추가 */
+p:hover {
+    background-color: black;
+}

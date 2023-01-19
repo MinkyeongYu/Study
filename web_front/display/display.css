@@ -1,0 +1,10 @@
+div {
+    width: 100px;
+    /* block처럼 박스 모델 사용하면서 inline의 요소를 지님.(뒤로 나열) */
+    display: inline-block;
+}
+
+span{
+    width: 100px;
+    display: block;
+}

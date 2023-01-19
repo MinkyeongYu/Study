@@ -1,0 +1,25 @@
+div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    /* 테두리 1픽셀, 검은색 */
+    border: 1px solid black;
+}
+
+/* target 아이디에 접근하여 배경을 노란색으로 설정 */
+#target{
+    background-color: yellow;
+    /* static position은 원래 있어야하는 자리에 위치하는 것. */
+    /* relative는 static상태로부터 상대적으로 움직이는 것. */
+    /* position: static; */
+    /* position: relative;
+    left: 100px; 왼쪽으로 100px 만큼 상대적 이동 실행 */
+    /* position: absolute; => 자신의 가장 가까운 부모중에 포지션 속성이 relative인 것을 찾아서 상대적인 이동 수행 */
+    /* relative속성을 지닌 것이 없다면, body태그 기준으로 상대적인 이동을 수행한다. */
+    /* body 태그를 기준으로 왼쪽에서 10px, 위에서 10px 만큼 이동. */
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
