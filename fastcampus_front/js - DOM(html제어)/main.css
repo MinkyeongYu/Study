@@ -1,0 +1,27 @@
+/* button */
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: rosybrown;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 커서를 올렸을때 커서 이미지 변경 */
+    cursor: pointer;
+    /* 전환 효과 */
+    transition: 0.5s;
+}
+
+/* btn에 hover 추가 */
+.btn:hover {
+    background-color:chocolate;
+}
+
+/* btn을 클릭했을때 span형태로 실제 html상에서 글자가 대체됨('클릭했어요!')*/
+/* btn 클래스의 span 태그에 접근 */
+.btn span {
+    font-size: 22px;
+    font-weight: 700;
+}

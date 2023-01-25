@@ -7,3 +7,12 @@ h1{
     padding: 5px;
     text-align: center;
 }
+/* 마우스로 클릭하고있을때에만 효과 적용 */
+h1:active{
+    background-color: bisque;
+}
+
+img{
+    border: 8px solid;
+    width: 98.7%;
+}

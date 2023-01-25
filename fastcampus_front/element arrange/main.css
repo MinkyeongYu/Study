@@ -1,0 +1,37 @@
+.container {
+    height: 200px;
+    /* 4px 검은색 테두리 생성 */
+    border: 4px solid black;
+    /* 값들이 수평정렬 될 수 있음 */
+    display: flex;
+    /* 값들이 container의 수평영역에서 가운데/오른쪽/왼쪽 정렬됨. */
+    /* justify-content: end; */
+    /* justify-content: start; */
+    justify-content: center;
+
+    /* container의 수직영역에서 가운데/위/아래 정렬됨 */
+    /* align-items: end; */
+    /* align-items: start; */
+    align-items: center;
+    /* 값들의 사이 공간을 10px만큼 벌린다 */
+    gap: 10px;
+}
+/* 컨테이너 클래스의 하위클래스 item */
+.container .item{
+    width: 100px;
+    height: 100px;
+    background-color: royalblue;
+
+    /* item내부의 요소들이 수평정렬되도록 함 */
+    display: flex;
+
+    /* 각 item의 수평영역에서 가운데 정렬 */
+    justify-content: center;
+
+    /* 긱 item의 수직영역에서 가운데 정렬 */
+    align-items: center;
+
+    /* 글자 색상, 폰트크기 설정 */
+    font-size: 30px;
+    color: white;
+}
